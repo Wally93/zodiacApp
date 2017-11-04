@@ -1,3 +1,1 @@
-# zodiac_project
-my code louisville project
-updated 10.10.2017
+# zodiac_project is a WebApp that allow you to check your daily horoscope.
