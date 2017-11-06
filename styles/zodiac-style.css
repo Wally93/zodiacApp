@@ -18,7 +18,7 @@ body {
 #quote{
   text-align: center;
   text-transform: capitalize;
-  text-shadow: 0.1vw 0.1vw white;
+  text-shadow: 0.01vw 0.01vw white;
   margin: 1vw 1vw 1vw 1vw;
   font-size: 1.5vw;
   color: #d9d9d9;
@@ -39,8 +39,12 @@ body {
 header{
    text-align: center;
    font-size: 2.5vw;
-   color: white;
+   font-style: oblique;
+   font-weight: bold;
+   color: #b84dff;
    font-family: "Times New Roman", Times, serif;
+   opacity: 0.8;
+   margin-bottom: 2vh;
 }
 
 
@@ -99,6 +103,13 @@ header{
             height: 10%;
             margin-left: 12vw;
           }
+
+          #search1::-webkit-input-placeholder {
+            color: grey;
+            font-size: 4vh;
+            font-weight: bold;
+           }
+
           #search3 {
             float: left;
             margin-left: 1%;
@@ -178,7 +189,7 @@ header{
  	color:  #8f9296;
  	font-size: 14px;
  	font-weight: normal;
- 	margin-left: 2%;
+ 	margin-left: 10%;
  }
 
  /* Footer Center */
@@ -269,8 +280,8 @@ header{
  }
 
  #logo {
-    width: 200px;
-    height: 60px;
-    margin-right: 50px;
-    margin-left: 15px;
+    width: 20vw;
+    height: 25vh;
+    margin-right: 2vw;
+    margin-left: 2vw;
   }
